@@ -260,7 +260,7 @@ function initializePage() {
 
 document.addEventListener("DOMContentLoaded", initializePage);
 
-// Add event listeners for filter and search
+
 document.getElementById("yearFilter").addEventListener("change", applyFilters);
 document.getElementById("makeFilter").addEventListener("change", applyFilters);
 document.getElementById("colorFilter").addEventListener("change", applyFilters);
