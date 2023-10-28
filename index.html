@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Used Car Dealer</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <img src="./images/car_logo.png" alt="car_logo" />
+        <h1>Used Car Dealer</h1>
+        </div>
+        <div class = "header-content">
+          <label for="yearFilter">Year:</label>
+          <select id="yearFilter">
+            <option value="-select-">-select-</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+          </select>
+
+        <label for="makeFilter">Make:</label>
+        <select id="makeFilter">
+          <option value="-select-">-select-</option>
+          <option value="Toyota">Toyota</option>
+          <option value="Honda">Honda</option>
+          <option value="Ford">Ford</option>
+          <option value="Nissan">Nissan</option>
+          <option value="Chevrolet">Chevrolet</option>
+          <option value="Volkswagen">Volkswagen</option>
+          <option value="Hyundai">Hyundai</option>
+          <option value="Subaru">Subaru</option>
+          <option value="Mazda">Mazda</option>
+          <option value="Kia">Kia</option>
+          <option value="Dodge">Dodge</option>
+          <option value="Cadillac">Cadillac</option>
+          <option value="Jaguar">Jaguar</option>
+          <option value="Tesla">Tesla</option>
+          <option value="Dodge">Dodge</option>
+          <option value="Porsche">Porsche</option>
+          <option value="Lexus">Lexus</option>
+          <option value="BMW">BMW</option>
+          <option value="Audi">Audi</option>
+        </select>
+
+
+          <label for="maxMileageFilter">Max Mileage:</label>
+          <input type="text" id="maxMileageFilter" placeholder="Enter Max Mileage">
+          <button id="applyMaxMileageButton">APPLY</button>
+
+
+        <label for="colorFilter">Color:</label>
+        <select id="colorFilter">
+          <option value="-select-">-select-</option>
+          <option value="Silver">Silver</option>
+          <option value="White">White</option>
+          <option value="Black">Black</option>
+          <option value="Blue">Blue</option>
+          <option value="Red">Red</option>
+          <option value="Gray">Gray</option>
+          <option value="Green">Green</option>
+        </select>
+        </div>
+
+        <label for="priceFilter">Price:</label>
+        <select id="priceFilter">
+          <option value="-select-">-select-</option>
+          <option value="12000">$12,000</option>
+          <option value="14000">$14,000</option>
+          <option value="15000">$15,000</option>
+          <option value="16000">$16,000</option>
+          <option value="17000">$17,000</option>
+          <option value="18000">$18,000</option>
+          <option value="19000">$19,000</option>
+          <option value="24000">$24,000</option>
+          <option value="26000">$26,000</option>
+          <option value="27000">$27,000</option>
+          <option value="28000">$27,000</option>
+          <option value="32000">$32,000</option>
+          <option value="38000">$38,000</option>
+          <option value="55000">$55,000</option>
+          <option value="68000">$68,000</option>
+        </select>
+      </section>
+      <br />
+    </header>
+    <main>
+      <section class="car-listings">
+        <div id="carListings" class="car-grid">
+        </div>
+      </section>
+    </main>
+
+    <script src="./usedCars.js"></script>
+  </body>
+</html>
